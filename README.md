@@ -2,12 +2,11 @@
 
 ## Overview of Project
 	
-	Louise had written a play.  She decided to crowdsource the funding for this play through Kickstarter.  
-She wanted to use data to determine the best strategy to have a successful campaign.
+Louise had written a play.  She decided to crowdsource the funding for this play through Kickstarter.  She wanted to use data to determine the best strategy to have a successful campaign.
 
 ### Purpose
 	
-	There were a few important questions Louise had that we could answer with the data from previous campaigns
+There were a few important questions Louise had that we could answer with the data from previous campaigns
 on Kickstarter.  First, she was interested in if the month a campaign was launched had any effect on its outcome.
 Second, she asked if the goal amount determined outcome.  By creating charts to plot this data, Louise can easily
 determine the answers to her questions.
@@ -16,14 +15,14 @@ determine the answers to her questions.
 	
 ### Analysis of Outcomes Based on Launch Date
 	
-	To analyze the outcomes based on launch date, a pivot table had to be utilized to accurately display the
+To analyze the outcomes based on launch date, a pivot table had to be utilized to accurately display the
 information Louise was interested in.  By filtering that pivot table for only successful campaigns in the theater
 category, we were able to create a line chart to visually represent launch date data of the campaigns Louise
 was aspiring to emulate.  [Theater Outcome Based on Launch Date] (Resources/Theater_Outcomes_vs_Launch.png).
 
 ### Analysis of Outcomes Based on Goals
 	
-	In order to analyze the outcomes based on goals, we first had to divide the data into buckets based on 
+In order to analyze the outcomes based on goals, we first had to divide the data into buckets based on 
 how much money they set as their goal.  We had twelve buckets starting from Less Than $1000 and adding $5000 
 increments until reaching the last bucket of Greater than $50000.  We then used 'countifs()' to find the number
 of campaigns that not only fell into a certain Goal bucket, but one that also met an outcome condition and was in
@@ -35,7 +34,7 @@ looked like this '=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=
 
 ### Challenges and Difficulties Encountered
 	
-	The challenge came when adapting the 'countifs()' functions for the Outcomes Based on Goals analysis.  I
+The challenge came when adapting the 'countifs()' functions for the Outcomes Based on Goals analysis.  I
 first tried to copy the first cell across the entire row.  However, I forgot about the importance of relative vs.
 absolute references. Relative references will move the cells you are referencing in a formula as you move the
 formula while absolute references will not.  Once I changed the columns in the formula to absolute references,  I 
