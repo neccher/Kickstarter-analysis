@@ -24,17 +24,17 @@ was aspiring to emulate.  [Theater Outcome Based on Launch Date] (Resources/Thea
 	
 In order to analyze the outcomes based on goals, we first had to divide the data into buckets based on 
 how much money they set as their goal.  We had twelve buckets starting from Less Than $1000 and adding $5000 
-increments until reaching the last bucket of Greater than $50000.  We then used 'countifs()' to find the number
+increments until reaching the last bucket of Greater than $50000.  We then used `countifs()` to find the number
 of campaigns that not only fell into a certain Goal bucket, but one that also met an outcome condition and was in
 the play subcategory. As an example, the code used to find a Successful Play with a goal between $25000 and $29999
-looked like this '=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=25000",Kickstarter!$D:$D,"<=29999"
-,Kickstarter!$R:$R,"plays")'.  Once the table was filled out, we could display the data in a line chart.
+looked like this `=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=25000",Kickstarter!$D:$D,"<=29999"
+,Kickstarter!$R:$R,"plays")`.  Once the table was filled out, we could display the data in a line chart.
 [Outcomes Based on Goals] (Resources/Outcomes_vs_Goals.png).
 
 
 ### Challenges and Difficulties Encountered
 	
-The challenge came when adapting the 'countifs()' functions for the Outcomes Based on Goals analysis.  I
+The challenge came when adapting the `countifs()` functions for the Outcomes Based on Goals analysis.  I
 first tried to copy the first cell across the entire row.  However, I forgot about the importance of relative vs.
 absolute references. Relative references will move the cells you are referencing in a formula as you move the
 formula while absolute references will not.  Once I changed the columns in the formula to absolute references,  I 
