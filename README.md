@@ -18,7 +18,8 @@ determine the answers to her questions.
 To analyze the outcomes based on launch date, a pivot table had to be utilized to accurately display the
 information Louise was interested in.  By filtering that pivot table for only successful campaigns in the theater
 category, we were able to create a line chart to visually represent launch date data of the campaigns Louise
-was aspiring to emulate.  [Theater Outcome Based on Launch Date] (https://github.com/neccher/Kickstarter-analysis/blob/5cf7d04a4212ced3888dea179cee17799066622d/Resources/Theater_Outcomes_vs_Launch.png).
+was aspiring to emulate. [Outcome Based on Launch Date] <img width="240" alt="Theater_Outcomes_vs_Launch" src="https://user-images.githubusercontent.com/79211628/111523375-38209380-8729-11eb-98c8-bee3920e29b3.png">
+
 
 ### Analysis of Outcomes Based on Goals
 	
@@ -29,7 +30,8 @@ of campaigns that not only fell into a certain Goal bucket, but one that also me
 the play subcategory. As an example, the code used to find a Successful Play with a goal between $25000 and $29999
 looked like this `=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=25000",Kickstarter!$D:$D,"<=29999"
 ,Kickstarter!$R:$R,"plays")`.  Once the table was filled out, we could display the data in a line chart.
-[Outcomes Based on Goals] (https://github.com/neccher/Kickstarter-analysis/blob/1a90db72286b693fd3a9fb560400eb1beab6039a/Resources/Outcomes_vs_Goals.png).
+[Outcomes Based on Goals] <img width="370" alt="Outcomes_vs_Goals" src="https://user-images.githubusercontent.com/79211628/111523620-79b13e80-8729-11eb-8a7b-f14602d7b623.png">
+
 
 
 ### Challenges and Difficulties Encountered
