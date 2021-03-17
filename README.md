@@ -18,7 +18,7 @@ determine the answers to her questions.
 To analyze the outcomes based on launch date, a pivot table had to be utilized to accurately display the
 information Louise was interested in.  By filtering that pivot table for only successful campaigns in the theater
 category, we were able to create a line chart to visually represent launch date data of the campaigns Louise
-was aspiring to emulate. [Outcome Based on Launch Date] <img width="240" alt="Theater_Outcomes_vs_Launch" src="https://user-images.githubusercontent.com/79211628/111523375-38209380-8729-11eb-98c8-bee3920e29b3.png">
+was aspiring to emulate. [Outcome Based on Launch Date] (Resources/Theater_Outcomes_vs_Launch.png) <img width="240" alt="Theater_Outcomes_vs_Launch" src="https://user-images.githubusercontent.com/79211628/111523375-38209380-8729-11eb-98c8-bee3920e29b3.png">
 
 
 ### Analysis of Outcomes Based on Goals
