@@ -30,7 +30,7 @@ of campaigns that not only fell into a certain Goal bucket, but one that also me
 the play subcategory. As an example, the code used to find a Successful Play with a goal between $25000 and $29999
 looked like this `=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=25000",Kickstarter!$D:$D,"<=29999"
 ,Kickstarter!$R:$R,"plays")`.  Once the table was filled out, we could display the data in a line chart.
-[Outcomes Based on Goals] <img width="370" alt="Outcomes_vs_Goals" src="https://user-images.githubusercontent.com/79211628/111523620-79b13e80-8729-11eb-8a7b-f14602d7b623.png">
+[Outcomes Based on Goals] (Resources/Outcomes_vs_Goals.png) <img width="370" alt="Outcomes_vs_Goals" src="https://user-images.githubusercontent.com/79211628/111523620-79b13e80-8729-11eb-8a7b-f14602d7b623.png">
 
 
 
